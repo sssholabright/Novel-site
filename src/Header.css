@@ -1,0 +1,35 @@
+.header {
+    background-color: black;
+    height: 30px;
+
+}
+
+.nav_search {
+    margin-left: 117px;
+    padding-top: 2px;
+}
+
+.search {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgba(208, 207, 205, 0.407);
+    border: 1px solid;
+    height: 20px;
+    outline-style: none;
+}
+
+.search:hover {
+    color: white;
+}
+
+.search_button {
+    background-color: transparent;
+    color: rgba(208, 207, 205, 0.407);
+    outline-style: none;
+    border: none;
+}
+
+.search_button:hover {
+    cursor: pointer;
+    color: white;
+}

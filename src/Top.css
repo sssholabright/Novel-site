@@ -1,0 +1,86 @@
+.top {
+    background-image: url("https://miro.medium.com/max/700/0*K1zctYsb9vijILUk");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    height: 350px;
+    color: white;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 100%;
+
+}
+.img {
+    width: 100%;
+    background-color: rgba(9, 9, 9, 0.756);
+}
+
+.top_left {
+    color: white;
+    display: inline-flex;
+    margin-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.top_left > p {
+    margin-left: 20px;
+}
+
+.top_center {
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.top_center > h2 {
+    font-family: tahoma;
+}
+
+.top_right {
+    display: inline-flex;
+    text-align: right;
+    align-content: right;
+    position: relative;
+    left: 250px;
+    margin-right: 100px;
+}
+
+.top_right > p {
+    margin-left: 20px;
+}
+
+.top_info {
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+    line-height: 10px;
+    align-items: center;
+    margin-left: -80px;
+}
+
+
+
+/*.img {
+    position: relative;
+    overflow: hidden;
+    border: 5px dashed none;
+    
+}
+
+.img > img {
+    width: 100%;
+    height: 380px;
+    opacity: 0.5;
+}
+.top_left {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.top_left {
+    color: white;
+}*/

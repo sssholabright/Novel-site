@@ -1,0 +1,78 @@
+.storybox {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: elephant;
+}
+
+.story_head {
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.box {
+    margin-top: 80px;
+    display: flex;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-color: rgb(213, 213, 213);
+    width: 20%;
+    height: fit-content;
+    border: ;
+    margin-left: 10px;
+}
+
+.box1 > p, .box2 > p, .box3 > p, .box4 > p {
+    display: inline-flex;
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.box1 > img, .box2 > img, .box3 > img, .box4 > img {
+    border: 2;
+    outline-style: auto;
+    outline-color: aliceblue;
+    width: 100%;
+
+}
+
+.box1 > img:hover, .box2 > img:hover, .box3 > img:hover, .box4 > img:hover {
+    outline-color: blue;
+    cursor: pointer;
+}
+
+.box1 > p > .MuiSvgIcon-root, .box2 > p > .MuiSvgIcon-root, .box3 > p > .MuiSvgIcon-root, .box4 > p > .MuiSvgIcon-root {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+#box {
+    background-color: white;
+    padding-top: 20px;
+
+}
+
+#box > h5 > a {
+    color: rgb(42, 42, 244);
+    font-weight: bold;
+}
+
+#box > p {
+    line-height: 18px;
+}
+
+#box > h6 > a {
+    justify-self: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
